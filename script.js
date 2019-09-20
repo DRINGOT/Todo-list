@@ -32,17 +32,26 @@ function createListElement() {
     insertLi();
     resetInput();
     symbolDelete();
-
+    deleteLi();
 }
 //Function delete
 function symbolDelete() {
     let deleteButton = document.createElement("button");
     let cross = document.createTextNode("\u00D7");
-    deleteButton.className = "delete";
+    deleteButton.className = "close";
     deleteButton.append(cross);
     li.append(deleteButton);
 }
 
+function deleteLi() {
+    let close = document.getElementsByClassName("close");
+    for (let i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+            let div = this.parentElement;
+            div.remove();
+        };
+    };
+}
 //Functions validation add
 function addListAfterClick() {
     if (inputLength() > 0) {
@@ -63,5 +72,4 @@ function Capitalize() {
 
 // Processus
 button.addEventListener("click", addListAfterClick);
-
 input.addEventListener("keypress", addListAfterKeyPress);
