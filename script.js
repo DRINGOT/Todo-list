@@ -52,6 +52,13 @@ function deleteLi() {
         };
     };
 }
+//Function task done
+function strikeThrough(check) {
+    if (check.target.tagName === 'LI') {
+        check.target.classList.toggle('checked');
+    }
+}
+
 //Functions validation add
 function addListAfterClick() {
     if (inputLength() > 0) {
@@ -71,5 +78,7 @@ function Capitalize() {
 }
 
 // Processus
+
+ul.addEventListener('click', strikeThrough);
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeyPress);
