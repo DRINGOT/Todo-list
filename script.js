@@ -38,11 +38,10 @@ function createListElement() {
 function symbolDelete() {
     let deleteButton = document.createElement("button");
     let cross = document.createTextNode("\u00D7");
-    span.className = "delete";
-    span.append(cross);
+    deleteButton.className = "delete";
+    deleteButton.append(cross);
     li.append(deleteButton);
 }
-
 
 //Functions validation add
 function addListAfterClick() {
