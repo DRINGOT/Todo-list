@@ -15,7 +15,7 @@ function resetInput() {
 }
 
 function addTextNode() {
-    li.append(document.createTextNode(input.value));
+    li.append(document.createTextNode(CapitalizeFirstLetterInput()));
 }
 function createNewLi() {
     li = document.createElement("li");
@@ -29,8 +29,7 @@ function createListElement() {
     createNewLi();
     addTextNode();
     insertLi();
-    resetInput()
-        ;
+    resetInput();
 }
 
 function addListAfterClick() {
@@ -45,6 +44,9 @@ function addListAfterKeyPress(event) {
     }
 }
 
+function CapitalizeFirstLetterInput() {
+    return input.value[0].toUpperCase() + input.value.slice(1, inputLength()).toLowerCase();
+}
 // Processus
 button.addEventListener("click", addListAfterClick);
 
