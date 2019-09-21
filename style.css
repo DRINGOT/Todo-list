@@ -77,6 +77,28 @@ li {
     text-shadow: 0.2rem 0.2rem 0.2rem #342e2d;
 }
 
+#enter {
+    border: none;
+    font-size: 2rem;
+    grid-area: enter;
+    text-decoration: none;
+    background-color: #565b64;
+    color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
+}
+
+.close {
+    border: none;
+    font-size: 2rem;
+    grid-area: enter;
+    text-decoration: none;
+    background-color: #565b64;
+    color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
+}
+
 /* animation */
 
 .checked {
