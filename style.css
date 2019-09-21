@@ -1,3 +1,26 @@
+/* reset CSS */
+
+html {
+    color: 10px;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, #585858, #B79386 200px, #9C9691 150px, #628181 10px);
+    background-position: 50% 50%;
+    animation: foo 22000ms infinite alternate;
+    font-family: 'Mansalva', cursive;
+}
+
+@keyframes foo {
+    from {
+        background-size: 69px 69px;
+    }
+    to {
+        background-size: 9px 9px;
+    }
+}
+
+/* animation */
+
 .checked {
     text-decoration: line-through;
+    color: #fff;
 }
