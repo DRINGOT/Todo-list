@@ -90,13 +90,7 @@ li {
 
 .close {
     border: none;
-    font-size: 2rem;
-    grid-area: enter;
-    text-decoration: none;
-    background-color: #565b64;
-    color: #fff;
-    border-radius: 1.5rem;
-    box-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
+    c
 }
 
 /* animation */
@@ -110,17 +104,19 @@ li {
 
 #buttonDarkMode {
     grid-area: theme;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    border: none;
-    font-size: 2rem;
+    width: 8rem;
+    height: 2.6rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
+    text-decoration: none;
     background-color: #565b64;
     color: #fff;
+    border: none;
     border-radius: 1.5rem;
     box-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
 }
+
+/* end .slideThree */
 
 body.darkMode {
     background-image: none;
