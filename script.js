@@ -4,7 +4,7 @@ let button = document.getElementById("enter");
 let input = document.getElementById("userinput");
 let ul = document.querySelector("ul");
 let li;
-
+const darkMode = document.getElementById("buttonDarkMode");
 //Functions 
 function inputLength() {
     return input.value.length;
@@ -82,3 +82,11 @@ function Capitalize() {
 ul.addEventListener('click', strikeThrough);
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeyPress);
+darkMode.addEventListener("click", changeTheme);
+
+//function Darkmode
+function changeTheme(ev) {
+    if (ev.target.tagName === "BUTTON") {
+        document.body.classList.toggle("darkMode");
+    }
+}

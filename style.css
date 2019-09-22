@@ -30,7 +30,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 10% 10% 1fr 1fr 1fr;
-    grid-template-areas: ". h1 h1 h1 ." " . input input enter." ". ul ul . ." ". ul ul . ." ". ul ul . .";
+    grid-template-areas: ". h1 h1 h1 theme" " . input input enter." ". ul ul . ." ". ul ul . ." ". ul ul . .";
     grid-gap: 1rem;
     min-height: 83vh;
     background-image: linear-gradient(165deg, #628181, #9C9691 35%, #B79386 55%, #DC8363 80%, #ED733A);
@@ -104,4 +104,24 @@ li {
 .checked {
     text-decoration: line-through;
     color: #fff;
+}
+
+/* dmode */
+
+#buttonDarkMode {
+    grid-area: theme;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border: none;
+    font-size: 2rem;
+    background-color: #565b64;
+    color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
+}
+
+body.darkMode {
+    background-image: none;
 }
