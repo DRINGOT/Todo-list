@@ -1,3 +1,3 @@
 # Todo-list
 -> Todo List Vanilla JS
-HTML CSS DOM JS
+DOM HTML CSS 
