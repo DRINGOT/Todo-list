@@ -29,8 +29,8 @@ body {
     background-color: #222222;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10% 10% 1fr 1fr 1fr;
-    grid-template-areas: ". h1 h1 h1 theme" " . input input enter." ". ul ul . ." ". ul ul . ." ". ul ul . .";
+    grid-template-rows: 10% 10% 8% 1fr 1fr;
+    grid-template-areas: ". h1 h1 h1 theme" ". . . . ." " . input input enter." ". . . . ." ". ul ul . ." ". ul ul . ." ". ul ul . .";
     grid-gap: 1rem;
     min-height: 83vh;
     background-image: linear-gradient(165deg, #628181, #9C9691 35%, #B79386 55%, #DC8363 80%, #ED733A);
@@ -44,6 +44,7 @@ h1 {
     grid-area: h1;
     color: #fff;
     text-shadow: 0.5rem 0.3rem 0.3rem #342e2d;
+    margin-bottom: 10px;
 }
 
 input {
