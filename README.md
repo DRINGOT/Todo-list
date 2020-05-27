@@ -11,4 +11,4 @@ DOM HTML CSS
 ### Dark Mode
 ![TodoList preview Dark Mode ](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/todolist_black.png)
 
-    :arrow_right: [Contact me for more informations](https://twitter.com/DRingot_dev) :arrow_left:
+  :arrow_right: [Contact me for more informations](https://twitter.com/DRingot_dev) :arrow_left:
