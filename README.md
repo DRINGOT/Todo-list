@@ -3,7 +3,7 @@
 DOM HTML CSS 
 
 ## UML
-![uml](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/todolist.png)
+![uml](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/UML_TodoList.png)
 
 ## Preview
 ![TodoList preview](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/todolist.png)
