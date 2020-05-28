@@ -12,3 +12,6 @@ DOM HTML CSS
 ![TodoList preview Dark Mode ](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/todolist_black.png)
 
   :arrow_right: [Contact me for more informations](https://twitter.com/DRingot_dev) :arrow_left:
+
+  ## WIREFRAME
+![uml](https://raw.githubusercontent.com/DRINGOT/Todolist-Node.JS-Backend/master/wireframe_todolist.png)
