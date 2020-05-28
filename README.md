@@ -11,7 +11,7 @@
 ![TodoList preview Dark Mode ](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/todolist_black.png)
 
  ## WIREFRAME
-![uml](https://raw.githubusercontent.com/DRINGOT/Todolist-Node.JS-Backend/master/wireframe_todolist.png)
+![uml](https://raw.githubusercontent.com/DRINGOT/Todo-list/master/wireframe_todolist.png)
 
   :arrow_right: [Contact me for more informations](https://twitter.com/DRingot_dev) :arrow_left:
 
